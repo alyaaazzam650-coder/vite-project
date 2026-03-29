@@ -1,0 +1,173 @@
+/* ── Page wrapper (reuses login bg styles) ───────── */
+.profile-page {
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Reuse orb + grid from Login.css */
+.login-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.login-orb--1 {
+  width: 500px;
+  height: 500px;
+  top: -150px;
+  left: -150px;
+  background: radial-gradient(circle, rgba(123,47,255,0.2) 0%, transparent 70%);
+}
+
+.login-orb--2 {
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  right: -100px;
+  background: radial-gradient(circle, rgba(0,212,255,0.14) 0%, transparent 70%);
+}
+
+.login-grid {
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Not-logged-in card (reuses login-card) ──────── */
+.login-card {
+  position: relative;
+  z-index: 1;
+  background: rgba(12,6,30,0.88) !important;
+  border: 1px solid rgba(123,47,255,0.25) !important;
+  border-radius: 20px !important;
+  padding: 2.8rem 2.5rem !important;
+  width: 100%;
+  max-width: 420px;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(123,47,255,0.08) inset;
+  animation: cardIn 0.5s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+.login-card__bar,
+.profile-card__bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #7b2fff, #00d4ff, #7b2fff);
+  background-size: 200% 100%;
+  border-radius: 20px 20px 0 0;
+  animation: barShimmer 3s linear infinite;
+}
+
+@keyframes barShimmer {
+  0%   { background-position: 0%   0%; }
+  100% { background-position: 200% 0%; }
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(24px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);    }
+}
+
+/* ── Profile layout ──────────────────────────────── */
+.profile-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px;
+  animation: cardIn 0.5s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+/* ── Sidebar ─────────────────────────────────────── */
+.profile-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── Shared card ─────────────────────────────────── */
+.profile-card {
+  position: relative;
+  background: rgba(12,6,30,0.88);
+  border: 1px solid rgba(123,47,255,0.22);
+  border-radius: 18px;
+  padding: 2rem;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+
+/* ── Main column ─────────────────────────────────── */
+.profile-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── Stat cards ──────────────────────────────────── */
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.stat-card {
+  position: relative;
+  background: rgba(12,6,30,0.88);
+  border: 1px solid rgba(123,47,255,0.2);
+  border-radius: 14px;
+  padding: 1.4rem 1.2rem;
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  border-color: rgba(0,212,255,0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(123,47,255,0.2);
+}
+
+.stat-card__bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #7b2fff, #00d4ff);
+  border-radius: 14px 14px 0 0;
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 1100px) {
+  .profile-stats { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 860px) {
+  .profile-inner { grid-template-columns: 1fr; }
+  .profile-sidebar { order: 1; }
+  .profile-main    { order: 2; }
+  .profile-stats   { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .profile-page  { padding: 1.5rem 1rem; }
+  .profile-card  { padding: 1.5rem;      }
+  .profile-stats { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .login-card    { padding: 2rem 1.5rem !important; }
+}

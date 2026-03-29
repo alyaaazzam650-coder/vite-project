@@ -1,0 +1,106 @@
+/* Page layout */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background orbs */
+.login-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.login-orb--1 {
+  width: 500px;
+  height: 500px;
+  top: -150px;
+  left: -150px;
+  background: radial-gradient(circle, rgba(123, 47, 255, 0.22) 0%, transparent 70%);
+}
+
+.login-orb--2 {
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  right: -100px;
+  background: radial-gradient(circle, rgba(0, 212, 255, 0.16) 0%, transparent 70%);
+}
+
+/* Grid overlay */
+.login-grid {
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Card */
+.login-card {
+  position: relative;
+  z-index: 1;
+  background: rgba(12, 6, 30, 0.88) !important;
+  border: 1px solid rgba(123, 47, 255, 0.25) !important;
+  border-radius: 20px !important;
+  padding: 2.8rem 2.5rem !important;
+  width: 100%;
+  max-width: 420px;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(123, 47, 255, 0.08) inset !important;
+  animation: cardIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(28px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);    }
+}
+
+/* Shimmer top bar */
+.login-card__bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #7b2fff, #00d4ff, #7b2fff);
+  background-size: 200% 100%;
+  border-radius: 20px 20px 0 0;
+  animation: barShimmer 3s linear infinite;
+}
+
+@keyframes barShimmer {
+  0%   { background-position: 0%   0%; }
+  100% { background-position: 200% 0%; }
+}
+
+/* Logo icon */
+.login-logo-icon {
+  width: 54px;
+  height: 54px;
+  background: linear-gradient(135deg, rgba(123,47,255,0.2), rgba(0,212,255,0.1));
+  border: 1px solid rgba(123, 47, 255, 0.35);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #67e8f9;
+  filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.4));
+  margin-bottom: 4px;
+}
+
+@media (max-width: 480px) {
+  .login-card { padding: 2rem 1.5rem !important; }
+}
