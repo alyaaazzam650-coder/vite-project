@@ -178,7 +178,7 @@ function NotLoggedIn() {
 // ── Logged in profile screen ──────────────────────
 function ProfilePage({ user }: { user: any }) {
   const navigate = useNavigate();
-  const { cartItems } = useContext(CartContext);
+  // const { cartItems } = useContext(CartContext);
 
   const handleLogout = () => {
     localStorage.removeItem("user");
