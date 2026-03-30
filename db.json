@@ -1,0 +1,449 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Quantum Warfare",
+      "price": 59.99,
+      "genre": "FPS / Sci-Fi",
+      "category": "featured",
+      "tags": ["featured", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1664092815283-19c6196f5319?q=80&w=1080",
+      "description": "Dive into the ultimate sci-fi battle arena with advanced weaponry and futuristic combat scenarios.",
+      "photos": [
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1080",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1080",
+        "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1080"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Neural Override",
+      "price": 49.99,
+      "genre": "Cyberpunk / RPG",
+      "category": "featured",
+      "tags": ["featured", "new-releases"],
+      "image": "https://images.unsplash.com/photo-1549455532-62f7ab74d527?q=80&w=1080",
+      "description": "Hack minds and manipulate reality in this cyberpunk RPG set in a neon-drenched future city.",
+      "photos": [
+        "https://images.unsplash.com/photo-1581091215360-8d7da6cb1e0c?w=1080",
+        "https://images.unsplash.com/photo-1581091387187-2b0a10891f43?w=1080"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chrome Legends",
+      "price": 39.99,
+      "genre": "Adventure / Sci-Fi",
+      "category": "top-sellers",
+      "tags": ["top-sellers", "new-releases"],
+      "image": "https://images.unsplash.com/photo-1762983701995-9e75c4d5a812?q=80&w=1080",
+      "description": "Explore a futuristic world filled with robotic enemies and epic chrome landscapes.",
+      "photos": [
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1080",
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1080"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Neon Racer VR",
+      "price": 69.99,
+      "genre": "Racing / VR",
+      "category": "vr-games",
+      "tags": ["vr-games", "featured"],
+      "image": "https://images.unsplash.com/photo-1620983626630-6b8a2ce4b9fe?q=80&w=1080",
+      "description": "Experience high-speed VR racing through glowing neon tracks in a futuristic city.",
+      "photos": [
+        "https://images.unsplash.com/photo-1558981033-1c3ecf3f4bde?w=1080",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=1080"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Virtual Uprising",
+      "price": 59.99,
+      "genre": "Action / VR",
+      "category": "vr-games",
+      "tags": ["vr-games", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1640823127518-65e1ad563576?q=80&w=1080",
+      "description": "Lead a virtual rebellion against AI overlords in a fully immersive VR environment.",
+      "photos": [
+        "https://images.unsplash.com/photo-1563201517-92fefbc34a4f?w=1080",
+        "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=1080"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dark Sector 3",
+      "price": 44.99,
+      "genre": "Cyberpunk / Action",
+      "category": "top-sellers",
+      "tags": ["top-sellers"],
+      "image": "https://images.unsplash.com/photo-1576465335479-49bad3fd5f79?q=80&w=1080",
+      "description": "Battle through the dark streets of a cyberpunk city, full of enemies and conspiracies.",
+      "photos": [
+        "https://images.unsplash.com/photo-1533258497911-4fbc7c6f37bf?w=1080",
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1080"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Stellar Void",
+      "price": 54.99,
+      "genre": "Space / Exploration",
+      "category": "featured",
+      "tags": ["featured", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1080",
+      "description": "Journey through the galaxy, colonize distant planets, and uncover the secrets of ancient alien civilizations.",
+      "photos": [
+        "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1080",
+        "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1080",
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1080"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Iron Bastion",
+      "price": 49.99,
+      "genre": "Strategy / War",
+      "category": "top-sellers",
+      "tags": ["top-sellers"],
+      "image": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=1080",
+      "description": "Command armies, build fortresses, and crush your enemies in this intense real-time strategy war game.",
+      "photos": [
+        "https://images.unsplash.com/photo-1521651201144-634f700b36ef?w=1080",
+        "https://images.unsplash.com/photo-1529327307535-07d3b0f12dd0?w=1080",
+        "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=1080"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Phantom Protocol",
+      "price": 47.99,
+      "genre": "Stealth / Thriller",
+      "category": "new-releases",
+      "tags": ["new-releases", "featured"],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1080",
+      "description": "Operate in the shadows as an elite spy, disabling enemy networks and outsmarting global threats.",
+      "photos": [
+        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1080",
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1080",
+        "https://images.unsplash.com/photo-1573164574472-797cdf4a583a?w=1080"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Abyssal Horror",
+      "price": 39.99,
+      "genre": "Survival Horror",
+      "category": "new-releases",
+      "tags": ["new-releases"],
+      "image": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=1080",
+      "description": "Survive the darkness of an underground research facility overrun by terrifying mutated creatures.",
+      "photos": [
+        "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=1080",
+        "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1080",
+        "https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?w=1080"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Verdant Realm",
+      "price": 44.99,
+      "genre": "Open World / Fantasy",
+      "category": "featured",
+      "tags": ["featured", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1080",
+      "description": "Wander vast enchanted forests, battle mythical creatures, and forge your legend in a breathtaking open world.",
+      "photos": [
+        "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1080",
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1080",
+        "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1080"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Mech Dominion",
+      "price": 64.99,
+      "genre": "Mech / Action",
+      "category": "top-sellers",
+      "tags": ["top-sellers", "new-releases"],
+      "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?q=80&w=1080",
+      "description": "Pilot colossal mechs across war-torn cityscapes and obliterate rival machines in explosive multiplayer battles.",
+      "photos": [
+        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1080",
+        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1080",
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Arcane Dominion",
+      "price": 42.99,
+      "genre": "MOBA / Fantasy",
+      "category": "new-releases",
+      "tags": ["new-releases", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?q=80&w=1080",
+      "description": "Choose from over 80 mystical heroes and clash in fast-paced 5v5 arena battles filled with powerful spells.",
+      "photos": [
+        "https://images.unsplash.com/photo-1553481187-be93c21490a9?w=1080",
+        "https://images.unsplash.com/photo-1586182987320-4f376d39d787?w=1080",
+        "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=1080"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Drift Apex",
+      "price": 34.99,
+      "genre": "Racing / Arcade",
+      "category": "new-releases",
+      "tags": ["new-releases"],
+      "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1080",
+      "description": "Master drift mechanics across 60 tracks worldwide, tuning your ride to perfection in this arcade street racer.",
+      "photos": [
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1080",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1080",
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1080"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Eternal Siege",
+      "price": 52.99,
+      "genre": "Tower Defense / Strategy",
+      "category": "top-sellers",
+      "tags": ["top-sellers"],
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1080",
+      "description": "Build impenetrable defenses and unleash devastating spells to hold off endless waves of monstrous invaders.",
+      "photos": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1080",
+        "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1080",
+        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=1080"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Crimson Tide",
+      "price": 57.99,
+      "genre": "Naval / Action",
+      "category": "featured",
+      "tags": ["featured"],
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1080",
+      "description": "Command powerful warships across stormy oceans, engage in epic sea battles, and control the high seas.",
+      "photos": [
+        "https://images.unsplash.com/photo-1494587416117-f102a083e4ca?w=1080",
+        "https://images.unsplash.com/photo-1529686342540-1b43aec0df75?w=1080",
+        "https://images.unsplash.com/photo-1536244636800-a3f74db0f3cf?w=1080"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Pixel Odyssey",
+      "price": 19.99,
+      "genre": "Indie / Platformer",
+      "category": "new-releases",
+      "tags": ["new-releases"],
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1080",
+      "description": "A charming retro platformer with hand-crafted pixel art worlds, quirky characters, and brain-twisting puzzles.",
+      "photos": [
+        "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=1080",
+        "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?w=1080",
+        "https://images.unsplash.com/photo-1518895312237-a9e23508077d?w=1080"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "ShadowBound",
+      "price": 46.99,
+      "genre": "RPG / Dark Fantasy",
+      "category": "featured",
+      "tags": ["featured", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1080",
+      "description": "Descend into a grim dark-fantasy world where your choices shape kingdoms and every shadow hides danger.",
+      "photos": [
+        "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1080",
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080",
+        "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=1080"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Warp Runners",
+      "price": 29.99,
+      "genre": "Multiplayer / Battle Royale",
+      "category": "new-releases",
+      "tags": ["new-releases", "featured"],
+      "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?q=80&w=1080",
+      "description": "Drop into a quantum-shifting arena with 100 players and use warp portals, traps, and gadgets to be the last one standing.",
+      "photos": [
+        "https://images.unsplash.com/photo-1542751110-97427bbecf20?w=1080",
+        "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=1080",
+        "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=1080"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Zenith Protocol",
+      "price": 74.99,
+      "genre": "Sci-Fi / RPG / Online",
+      "category": "top-sellers",
+      "tags": ["top-sellers", "featured"],
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=1080",
+      "description": "A massive online RPG set in a dystopian megacity where you build a crew, run heists, and rise to rule the underworld.",
+      "photos": [
+        "https://images.unsplash.com/photo-1506443432602-ac2fcd6f54e0?w=1080",
+        "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1080",
+        "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?w=1080"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Cyber Nexus VR",
+      "price": 79.99,
+      "genre": "VR / Shooter",
+      "category": "vr-games",
+      "tags": ["vr-games", "new-releases"],
+      "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=1080",
+      "description": "Strap on your headset and enter a hyper-connected virtual world where you battle rogue AIs in first-person combat.",
+      "photos": [
+        "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=1080",
+        "https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=1080",
+        "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=1080"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Void Walker VR",
+      "price": 64.99,
+      "genre": "VR / Adventure",
+      "category": "vr-games",
+      "tags": ["vr-games", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?q=80&w=1080",
+      "description": "Walk through interdimensional portals and explore breathtaking alien worlds in this VR adventure masterpiece.",
+      "photos": [
+        "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1080",
+        "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=1080",
+        "https://images.unsplash.com/photo-1581091215360-8d7da6cb1e0c?w=1080"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Pulse Arena VR",
+      "price": 55.99,
+      "genre": "VR / Sports",
+      "category": "vr-games",
+      "tags": ["vr-games"],
+      "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=1080",
+      "description": "A full-body VR sports experience featuring futuristic games like zero-gravity basketball and neon dodgeball.",
+      "photos": [
+        "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=1080",
+        "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1080",
+        "https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=1080"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Galactic Siege",
+      "price": 62.99,
+      "genre": "Strategy / Space",
+      "category": "new-releases",
+      "tags": ["new-releases", "featured"],
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1080",
+      "description": "Command star fleets, conquer solar systems, and forge galactic empires in this epic space strategy title.",
+      "photos": [
+        "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1080",
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1080",
+        "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1080"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Blood Circuit",
+      "price": 41.99,
+      "genre": "Racing / Combat",
+      "category": "top-sellers",
+      "tags": ["top-sellers", "new-releases"],
+      "image": "https://images.unsplash.com/photo-1504707748692-419802cf939d?q=80&w=1080",
+      "description": "Race armored vehicles equipped with weapons through post-apocalyptic tracks and destroy your competition.",
+      "photos": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1080",
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1080",
+        "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=1080"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Neon Abyss II",
+      "price": 37.99,
+      "genre": "Roguelike / Action",
+      "category": "new-releases",
+      "tags": ["new-releases"],
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1080",
+      "description": "Plunge into an endless neon dungeon, collect godlike powers, and fight your way through procedurally generated chaos.",
+      "photos": [
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1080",
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1080",
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1080"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Titan's Fall",
+      "price": 68.99,
+      "genre": "Action / Open World",
+      "category": "featured",
+      "tags": ["featured", "top-sellers"],
+      "image": "https://plus.unsplash.com/premium_photo-1677870728119-52aef052d7ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FtaW5nfGVufDB8fDB8fHww",
+      "description": "Topple colossal titans roaming a shattered world — each boss is a living fortress with its own ecosystem.",
+      "photos": [
+        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1080",
+        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1080",
+        "https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=1080"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Zero Gravity",
+      "price": 53.99,
+      "genre": "Sci-Fi / Platformer",
+      "category": "new-releases",
+      "tags": ["new-releases", "vr-games"],
+      "image": "https://images.unsplash.com/photo-1446776858070-70c3d5ed6758?q=80&w=1080",
+      "description": "Navigate zero-gravity space stations, solve physics puzzles, and outrun black holes in this mind-bending platformer.",
+      "photos": [
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1080",
+        "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1080",
+        "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1080"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Cyber Samurai",
+      "price": 58.99,
+      "genre": "Action / Cyberpunk",
+      "category": "top-sellers",
+      "tags": ["top-sellers", "featured"],
+      "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?q=80&w=1080",
+      "description": "Wield a plasma katana and nanoblade through the neon-soaked streets of Neo Tokyo in this brutal action slasher.",
+      "photos": [
+        "https://images.unsplash.com/photo-1549455532-62f7ab74d527?w=1080",
+        "https://images.unsplash.com/photo-1576465335479-49bad3fd5f79?w=1080",
+        "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=1080"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Eclipse Hunters",
+      "price": 45.99,
+      "genre": "Co-op / RPG",
+      "category": "new-releases",
+      "tags": ["new-releases", "top-sellers"],
+      "image": "https://images.unsplash.com/photo-1519638399535-1b036603ac77?q=80&w=1080",
+      "description": "Team up with 3 friends to hunt mythical shadow beasts across a world plunged into eternal eclipse.",
+      "photos": [
+        "https://images.unsplash.com/photo-1553481187-be93c21490a9?w=1080",
+        "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=1080",
+        "https://images.unsplash.com/photo-1586182987320-4f376d39d787?w=1080"
+      ]
+    }
+  ]
+}
