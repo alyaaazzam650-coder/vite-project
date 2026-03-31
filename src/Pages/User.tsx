@@ -185,12 +185,10 @@ function ProfilePage({ user }: { user: any }) {
     navigate("/login");
   };
 
-  // Generate avatar initials from email
   const initials = user.email
     ? user.email.slice(0, 2).toUpperCase()
     : "CP";
 
-  // Read real purchase history saved during checkout
   const purchases = JSON.parse(localStorage.getItem("purchases") || "[]");
 
   const statCards = [
